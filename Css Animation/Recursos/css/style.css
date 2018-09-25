@@ -118,6 +118,7 @@ body {
     -webkit-animation: movingplane 10s linear infinite;
     -moz-animation: movingplane 10s linear infinite;
     -o-animation: movingplane 10s linear infinite;
+		z-index:300;
   }
 
 
@@ -227,4 +228,16 @@ body {
 .responsive {
     width: 30%;
     height: auto;
+}
+
+
+
+input{
+    width: 25%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #00BFFF;
+    border-radius: 4px;
+		z-index: 400;
 }
