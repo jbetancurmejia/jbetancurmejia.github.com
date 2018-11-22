@@ -6,6 +6,7 @@ links.forEach(function(link){
   console.log(link);
 })*/
 
+//obtiene todos los elementos con clase -close
 let btnClose= document.querySelectorAll(".close");
 
 btnClose.forEach(function(btn){
@@ -24,9 +25,9 @@ btnClose.forEach(function(btn){
     content.classList.add("animated");
 
     setTimeout(function(){
-        location.href= "/";
+        location.href= "/boletines";
     },1000);
- 
+
 
     return false;
   });
