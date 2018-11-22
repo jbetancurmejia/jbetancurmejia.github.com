@@ -39,13 +39,32 @@ a:focus{
    max-width:960px;
    max-height:500px;
    width: 100%;
-   height: 100%;
+   height:80vh;
    background-color:white;
    border-radius: 4px;
    box-shadow:0 3px 6px rgba(0,0,0,0.16),0 3px 6px rgba(0,0,0,0.23);
    position: relative;
-   padding:1.8em;
+   overflow:auto;
  }
+
+ .content{
+ padding:1em;
+ }
+ td{
+   display:block;
+   width:100%;
+ }
+ td:nth-of-type(1)
+ {
+   font-size:1.5em;
+   font-weight:bold;
+   color:#CEF6F5;
+ }
+ th{
+   display:none;
+ }
+
+
 .actions{
   position: absolute;
   top:1em;
@@ -65,11 +84,7 @@ a:focus{
   align-items: center;
   justify-content: center;
   font-weight: bold;
-
-
 }
-
-
  .paragraph {
    line-height: 1.8em;
    font-weight: 200;
@@ -100,4 +115,30 @@ a:focus{
   padding:10px;
   border-radius: 4px;
   margin-right:0.5em;
+}
+
+
+@media (min-width:900px) {
+
+  td{
+    display:table-cell;
+    width:auto;
+  }
+  td:nth-of-type(1)
+  {
+     font-size:1em;
+  }
+  th{
+  display:table-cell;
+  }
+  .content{
+       padding:1.8em;
+  }
+}
+@media (min-height:550px)
+ {.content
+   {
+     height:500px;
+   }
+
 }
