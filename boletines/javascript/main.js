@@ -26,7 +26,7 @@ btnClose.forEach(function(btn){
 
     setTimeout(function(){
         location.href= "/boletines";
-    },1000);
+    },600);
 
 
     return false;
