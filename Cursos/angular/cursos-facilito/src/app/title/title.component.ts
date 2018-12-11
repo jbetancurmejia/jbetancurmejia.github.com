@@ -11,6 +11,8 @@ export class TitleComponent implements OnInit {
   public edad:number;
   public edades:number[];
 
+  public isAvailable : boolean = true;
+
 
   constructor(){
 
@@ -20,6 +22,9 @@ export class TitleComponent implements OnInit {
   ngOnInit(){
     this.name='juancho';
     this.edad=29;
+
+    setTimeout(()=> this.name='damian',3000)
+    setTimeout(()=> this.isAvailable=false,3000)
   }
 
 

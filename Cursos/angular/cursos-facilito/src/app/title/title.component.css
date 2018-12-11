@@ -12,7 +12,18 @@
 }
 
 
+button{
+  border:0;
+  outline:0;
+  padding:1em;
+  font-size:1em;
+}
 
-h1{
-  color: red;
+.active{
+  background-color: rgb(50, 50, 200);
+}
+
+button:not(.active)
+{
+  opacity: 0.56;
 }
