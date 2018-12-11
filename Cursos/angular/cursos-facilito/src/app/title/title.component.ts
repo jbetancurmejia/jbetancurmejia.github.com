@@ -23,7 +23,7 @@ export class TitleComponent implements OnInit {
     this.name='juancho';
     this.edad=29;
 
-    setTimeout(()=> this.name='damian',3000)
+    //setTimeout(()=> this.name='damian',3000)
     setTimeout(()=> this.isAvailable=false,3000)
   }
 

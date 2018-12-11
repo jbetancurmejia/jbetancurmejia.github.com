@@ -17,7 +17,19 @@ button{
   outline:0;
   padding:1em;
   font-size:1em;
+
 }
+
+.highlight{
+background-color:rgb(200,50,50);
+border-radius:4px;
+padding:10px;
+color: white;
+font-size:12px;
+margin-bottom: 2em;
+display: inline-block;
+}
+
 
 .active{
   background-color: rgb(50, 50, 200);
@@ -26,4 +38,8 @@ button{
 button:not(.active)
 {
   opacity: 0.56;
+}
+
+.shadow{
+   box-shadow: 0px 4px 4px rgba(0,0,0,0.2);
 }
