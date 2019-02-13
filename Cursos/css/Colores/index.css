@@ -1,0 +1,32 @@
+/*Colores en CSS*/
+/*RGB  RED GREEN BLUE inician en 0 hasta 255
+rgb(255, 0, 0)*/
+/*RGBA RED GREEN BLUE OPACITY inician en 0 hasta 255
+rgba(255, 0, 0,0.1)*/
+/*HSL S>SATURACION  L>OPACITY
+hsl(18,50%, 50%);
+*/
+/*HSLA S>SATURACION  L>OPACITY
+hsla(18,50%, 50%,.5);
+*/
+
+
+
+h1{
+    text-align: center;
+}
+.RGB{
+  color:rgb(255,0,100);
+}
+.RGBA{
+  background-color:rgb(255,0,100);
+  color:rgba(0,200,200,1);
+}
+.HSL{
+  background-color:hsl(18,50%, 50%);
+  color:rgba(0,0,200,1);
+}
+.HSLA{
+  background-color:hsla(18,50%, 50%,.5);
+  color:rgba(0,200,200,1);
+}
