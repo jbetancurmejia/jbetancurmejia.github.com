@@ -1,0 +1,50 @@
+/*Fuentes  en CSS*/
+h1{
+  background-color: hsla(18, 100%, 50%, .5);
+  border:double #eee 10px;
+  border-radius: 25px;
+  /*familia de fuentes*/
+  font-family: 'Roboto', sans-serif;
+  font-style: italic;
+  font-size: 2.5em; /*1em > 16px*/
+
+}
+.titulo{
+   background-color: hsla(18, 100%, 60%, .1);
+   border:dashed red 1px;;
+   border-radius: 25px;
+   /*familia de fuentes*/
+   font-family:monospace;
+   font-style: normal;
+   font-size: 1.5em; /*1em > 16px*/
+}
+
+.nowrap{
+  white-space: nowrap; /*hasta que termine la linea*/
+}
+.pre{
+  white-space: pre; /*Respeta salto de linea no se adapta*/
+}
+.pre-line{
+  white-space: pre-line; /*Respeta salto de linea y se adapta*/
+}
+.spacing{
+  word-spacing:53px; /*Espacio entre palabras*/
+}
+a{
+  text-decoration: line-through;
+  text-transform: capitalize;
+}
+
+.titulo-Shadow{
+   background-color: hsla(18, 100%, 60%, .5);
+   border:double white 10px;;
+   border-radius: 25px;
+   /*familia de fuentes*/
+   font-family:monospace;
+   font-style: normal;
+   font-size: 1.5em; /*1em > 16px*/
+   color: white;
+   text-align:center;
+   text-shadow: 1px 2px 2px blue;
+}
